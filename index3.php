@@ -38,6 +38,10 @@
       .header-search-padding{
       	padding-bottom: 7px;
       }
+
+      .header-padding-default{
+		padding-top: 7px;
+      }
     </style>
 
 </head>
@@ -46,25 +50,25 @@
 	<div id="main">
 		<!-- Navigation -->
 		<nav class="navbar navbar-default">
-		  <div class="container-fluid" style="background-color: #FFFFFF;">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">HaloDesa</a>
-		    </div>
-			<ul class="nav navbar-nav navbar-right">
-			  <!-- <li><a href="#about">Right</a></li> -->
-			  <li class="li-toogle">
-				<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
-			  </li>
-			</ul>
-		  </div>
+			<div class="container-fluid" style="background-color: #FFFFFF;">
+				<div class="navbar-header">
+				 	<a class="navbar-brand" href="#">HaloDesa</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+				  <!-- <li><a href="#about">Right</a></li> -->
+				  <li class="li-toogle">
+					<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+				  </li>
+				</ul>
+			</div>
 
-		<div id="mySidenav" class="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="#">About</a>
-		  <a href="#">Services</a>
-		  <a href="#">Clients</a>
-		  <a href="#">Contact</a>
-		</div>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			</div>
 
 		</nav>
 		<div class="container">
@@ -99,7 +103,7 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="row">
+				<div class="row header-search">
 					<div class="col-xs-6">
 						<div class="pull-left">
 							<h4>Result</h4>
@@ -112,7 +116,7 @@
 					</div>
 				</div>
 			  	
-				<div class="row">
+				<div class="row header-padding-default">
 					<div class="col-md-12 img-padd">
 					    <div class="media">
 					      <div class="media-left">
