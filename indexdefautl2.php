@@ -9,29 +9,14 @@
 	<link rel="stylesheet" href="assets/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/main.css">
 	<!-- Latest compiled and minified JavaScript -->
-	<!-- <script src="assets/bootstrap.min.js"></script> -->
+	<script src="assets/bootstrap.min.js"></script>
 
 	<script src="assets/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="assets/maps_search.css"> -->
 
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #maps {
-        height: 245px;
-        width: 535px;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
 
 </head>
 <body>
-	<div id="maps"></div>
 	<div id="main">
 	<!-- Navigation -->
 	<nav class="navbar navbar-default">
@@ -193,8 +178,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    <p>Currently v4.0.0-alpha.5. Code licensed <a rel="license" href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, docs <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
 	  </div>
 	</footer>
-
-	
 
 	</div>
 
