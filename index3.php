@@ -60,6 +60,18 @@
 		border-radius: 0px;
 	}
 
+	.img-padd:hover{
+	    border: 1px solid #777;
+    	border-color: #777;
+    	transform: scale(1.1);
+    	margin: 13px 0px 13px 0px;
+	}
+
+	.media, .media-body {
+    	margin-bottom: -11px;
+    	padding-top: 4px;
+	}
+
     </style>
 
 </head>
