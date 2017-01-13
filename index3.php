@@ -19,7 +19,7 @@
        * element that contains the map. */
       #maps {
         height: 565px;
-        width: 880px;
+        width: 896px;
         /*width: 100%;*/
         padding: 0px;
         margin: 0px;
@@ -109,7 +109,10 @@
 					<div class="col-md-6">
 					  <div class="form-group">
 					    <label for="email">Kategori</label>
-					    <input type="email" class="form-control" id="email">
+					    <select class="form-control">
+					    	<option value="all">All</option>
+					    	<option value="no">Dance</option>
+					    </select>
 					  </div>
 					</div>
 					<div class="col-md-12">
@@ -198,7 +201,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8" style="padding-left: 0px;">
 				<div id="maps"></div>
 			</div>
 		</div>
