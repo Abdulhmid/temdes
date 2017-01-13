@@ -56,6 +56,10 @@
 	    transform: scale(1.1);
 	}
 
+	.btn, .form-control{
+		border-radius: 0px;
+	}
+
     </style>
 
 </head>
@@ -116,7 +120,7 @@
 					  </div>
 					</div>
 					<div class="col-md-12">
-						<button class="btn btn-info">Cari</button>
+						<button class="btn btn-danger">Cari</button>
 					</div>
 				</div>
 				<div class="clearfix"></div>
