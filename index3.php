@@ -42,6 +42,20 @@
       .header-padding-default{
 		padding-top: 7px;
       }
+
+	.navbar {
+	    border: 0px;
+	}
+
+	.navbar-default .navbar-brand {
+	    color: #fff;
+	}
+
+	.navbar-default .navbar-brand:hover {
+	    color: #fff;
+	    transform: scale(1.1);
+	}
+
     </style>
 
 </head>
@@ -50,7 +64,7 @@
 	<div id="main">
 		<!-- Navigation -->
 		<nav class="navbar navbar-default">
-			<div class="container-fluid" style="background-color: #FFFFFF;">
+			<div class="container-fluid" style="background-color: #d9534f;color: #ffffff;">
 				<div class="navbar-header">
 				 	<a class="navbar-brand" href="#">HaloDesa</a>
 				</div>
